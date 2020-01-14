@@ -27,19 +27,36 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
     "uniqCompNum": 40,
-    "versionPublish": "4.9.1",
-    "siteUrl": "http://jte.ltd.uk",
-    "sitemapSwitcherAuto": "on",
-    "favicon": "",
-    "noImageResize": "",
+    "versionPublish": "4.11.6",
+    "siteUrl": "https://jte.ltd.uk",
+    "sitemapSwitcherAuto": true,
+    "favicon": false,
+    "noImageResize": false,
     "google-analytics": "",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='Privacy-Cookie-Policy.html'>cookie policy</a>.",
-    "sitemapSwitcher": "on",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href='Privacy-Cookie-Policy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "sitemapSwitcher": true,
     "screenshot": "screenshot.png",
-    "gdpr": "By continiung you agree to our <a href='Privacy-Cookie-Policy.html'>Privacy Policy</a>.",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "robotsSwitcher": "on",
-    "siteFonts": []
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continiung you agree to our <a href='Privacy-Cookie-Policy.html'>Privacy Policy</a>."
+    },
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n\n",
+    "robotsSwitcher": true,
+    "siteFonts": [],
+    "": "on",
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
@@ -47,7 +64,7 @@
         "main": true,
         "title": "JTE Ltd ILR Compliant MIS",
         "meta_descr": "JTE Limited supplier of ILR Compliant MI Systems for Training Providers",
-        "header_custom": "<script type=\"application/ld+json\">\n    {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"ProfessionalService\",\n    \"priceRange\": \"Available upon request\",\n    \"image\": \"https://jte.ltd.uk/assets/images/logocolornotext-128x128.jpg\",\n    \"additionalType\": \"http://www.productontology.org/id/Bespoke_software\",\n    \"url\": \"https://www.jte.ltd.uk/\",\n    \"hasMap\": \"https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3075.7120988798797!2d-2.6767218839700844!3d52.96645171079863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487a925a3ddc4697%3A0xe85c9fe86be181d9!2s10+Churton+Dr%2C+Whitchurch+SY13+1TP!3m2!1d52.9664485!2d-2.6745332!5e1!3m2!1sen!2suk!4v1483105258943\",\n    \"email\": \"jthelwell@jte.ltd.uk\",\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"10 Churton Drive\",\n        \"addressLocality\": \"Whitchurch\",\n        \"addressRegion\": \"Shropshire\",\n        \"postalCode\":\"SY13 1TP\"\n    },\n    \"description\": \"Bespoke software solutions for Training Providers looking for a Learner Management System.\",\n    \"name\": \"JTE Limited\",\n    \"telephone\": \"01948 667494\",\n    \"openingHours\": \"Mo,Tu,We,Th,Fr 09:00-17:00\",\n    \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n    \"latitude\": \"52.96\",\n        \"longitude\": \"-2.67\"\n        }\n    }\n</script>",
+        "header_custom": "<script type=\"application/ld+json\">\n    {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"ProfessionalService\",\n    \"priceRange\": \"Available upon request\",\n    \"image\": \"https://jte.ltd.uk/assets/images/logocolornotext-128x128.jpg\",\n    \"additionalType\": \"http://www.productontology.org/id/Bespoke_software\",\n    \"url\": \"https://www.jte.ltd.uk/\",\n    \"hasMap\": \"https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3075.7120988798797!2d-2.6767218839700844!3d52.96645171079863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487a925a3ddc4697%3A0xe85c9fe86be181d9!2s10+Churton+Dr%2C+Whitchurch+SY13+1TP!3m2!1d52.9664485!2d-2.6745332!5e1!3m2!1sen!2suk!4v1483105258943\",\n    \"email\": \"jthelwell@jte.ltd.uk\",\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"10 Churton Drive\",\n        \"addressLocality\": \"Whitchurch\",\n        \"addressRegion\": \"Shropshire\",\n        \"postalCode\":\"SY13 1TP\"\n    },\n    \"description\": \"Bespoke software solutions for Training Providers looking for a Learner Management System.\",\n    \"name\": \"JTE Limited\",\n    \"telephone\": \"01948 258236\",\n    \"openingHours\": \"Mo,Tu,We,Th,Fr 09:00-17:00\",\n    \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n    \"latitude\": \"52.96\",\n        \"longitude\": \"-2.67\"\n        }\n    }\n</script>",
         "footer_custom": "",
         "html_before": ""
       },
@@ -881,7 +898,7 @@
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-k",
-          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"137\" style=\"background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n       <!--         <div><img src=\"@PROJECT_PATH@/assets/images/logo.png\"></div> -->\n                <p class=\"mbr-editable-content\" code-editable-id=\"84\"><strong>Company Registration Number</strong><br> \n                </p><p>04707157<br>\n\t\t\t  Registered in England and Wales</p>\n\n            </div> \n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"85\"><strong>Address</strong><br>\n10 Churton Drive<br>\nWhitchurch, Shropshire<br>\nSY13 1TP</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"86\"><strong>Contacts</strong><br>\n<span class=\"list-group-text mbr-editable-content\" code-editable-id=\"87\">Tel: <a href=\"tel:01948667494\">01948 667 494</a><br>Mob: <a href=\"tel:07715490540\">07715 490 540</a> &nbsp;</span>\n            </p></div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"88\"><strong>Links</strong><br>\n<a class=\"text-primary\" href=\"https://www.htprojects.co.uk\" target=\"_blank\">EProgress LMS from HT Projects Ltd</a><br>\n<a class=\"text-primary\" href=\"https://hub.fasst.org.uk/Pages/default.aspx\" target=\"_blank\">The Hub</a><br>\n            </p></div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"137\" style=\"background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n       <!--         <div><img src=\"@PROJECT_PATH@/assets/images/logo.png\"></div> -->\n                <p class=\"mbr-editable-content\" code-editable-id=\"17\"><strong>Company Registration Number</strong><br> \n                </p><p>04707157<br>\n\t\t\t  Registered in England and Wales</p>\n\n            </div> \n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"18\"><strong>Address</strong><br>\n10 Churton Drive<br>\nWhitchurch, Shropshire<br>\nSY13 1TP</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"19\"><strong>Contacts</strong><br>\n<span class=\"list-group-text mbr-editable-content\" code-editable-id=\"20\">Tel: <a href=\"tel:01948258236\">01948 258 236</a><br>Mob: <a href=\"tel:07715490540\">07715 490 540</a> &nbsp;</span>\n            </p></div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"21\"><strong>Links</strong><br>\n<a class=\"text-primary\" href=\"https://www.htprojects.co.uk\" target=\"_blank\">EProgress LMS from HT Projects Ltd</a><br>\n<a class=\"text-primary\" href=\"https://hub.fasst.org.uk/Pages/default.aspx\" target=\"_blank\">The Hub</a><br>\n            </p></div>\n\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "",
@@ -1089,7 +1106,8 @@
       "settings": {
         "meta_descr": "Privacy Cookie Policy",
         "title": "Privacy Cookie Policy",
-        "order": 3
+        "order": 3,
+        "header_custom": ""
       },
       "components": [
         {
